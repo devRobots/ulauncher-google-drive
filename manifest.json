@@ -1,0 +1,16 @@
+{
+  "required_api_version": "2",
+  "name": "Google Drive search extension",
+  "description": "An extension for searching Google Drive files",
+  "developer_name": "DevRobot",
+  "icon": "images/icon.png",
+  "preferences": [
+    {
+      "id": "drive_kw",
+      "type": "keyword",
+      "name": "Drive",
+      "description": "Keyword to search Google Drive",
+      "default_value": "gd"
+    }
+  ]
+}
